@@ -1,0 +1,26 @@
+1.非字符串模板(直接在Dom)只能使用短横线分隔(my-component-name)命名的组件，
+字符串模板可以使用首字母大写(MyComponentName)和短横线分隔命名的组件。
+2.变量动态赋值v-bind:change="post.author"传入对象的所有值v-bind="obj"(不带参数change)
+argument 可缩写为 arg 
+buffer 可缩写为 buff 
+clock 可缩写为 clk 
+command 可缩写为 cmd 
+compare 可缩写为 cmp 
+configuration 可缩写为 cfg 
+device 可缩写为 dev 
+error 可缩写为 err 
+hexadecimal 可缩写为 hex 
+increment 可缩写为 inc 
+initialize 可缩写为 init 
+maximum 可缩写为 max 
+message 可缩写为 msg 
+minimum 可缩写为 min 
+parameter 可缩写为 para 
+previous 可缩写为 prev 
+register 可缩写为 reg 
+semaphore 可缩写为 sem 
+statistic 可缩写为 stat 
+synchronize 可缩写为 sync 
+temp 可缩写为 tmp 
+v-on 绑定事件监听器
+v-bind 动态地绑定一个或多个特性
