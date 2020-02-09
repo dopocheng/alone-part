@@ -7,11 +7,21 @@ import Top3 from '../views/wx-pages/detail-pages/top-3.vue'
 import Top4 from '../views/wx-pages/detail-pages/top-4.vue'
 import Paging from '../views/paging/paging.vue'
 import weekOfMonth from '../views/date-question/weekOfMonth.vue'
+import weekOfYear from '../views/date-question/weekOfYear.vue'
+import PropsParent from '../views/complex-component/propsDown/propsParent.vue'
 
 Vue.use(Router)
 export default new Router({
     mode: 'hash',
     routes:[
+        {
+            path: '/propsparent',
+            component: PropsParent
+        },
+        {
+            path: '/weekofyear',
+            component: weekOfYear
+        },
         {
             path: '/weekofmonth',
             component: weekOfMonth

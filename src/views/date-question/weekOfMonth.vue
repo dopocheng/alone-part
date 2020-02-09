@@ -14,7 +14,7 @@ export default {
     methods: {
         getWeek(dateStr) {
             // Date.parse() 方法解析一个表示某个日期的字符串，并返回从1970-1-1 00:00:00 UTC 到该日期对象（该日期对象的UTC时间）的毫秒数，
-            dateStr = Date.parse(dateStr);
+            // dateStr = Date.parse(dateStr);
             // 转成 date 对象
             let tarDate = new Date(dateStr);
             let tarDay = tarDate.getDay() == 0 ? 7 : tarDate.getDay(); // 目标日期是周几 (1-7)
