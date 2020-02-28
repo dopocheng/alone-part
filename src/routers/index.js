@@ -9,11 +9,16 @@ import Paging from '../views/paging/paging.vue'
 import weekOfMonth from '../views/date-question/weekOfMonth.vue'
 import weekOfYear from '../views/date-question/weekOfYear.vue'
 import PropsParent from '../views/complex-component/propsDown/propsParent.vue'
+import Covid19 from '../views/echarts/covid-19.vue'
 
 Vue.use(Router)
 export default new Router({
     mode: 'hash',
     routes:[
+        {
+            path: '/covid19',
+            component: Covid19
+        },
         {
             path: '/propsparent',
             component: PropsParent

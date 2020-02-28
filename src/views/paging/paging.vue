@@ -33,19 +33,14 @@ export default {
             pageNumber: 1,       // 页码   
             items: 3,            // 展示条数
             value: 1,            // input 值
-            size: '',            // 分组需要的空间大小
+            size: 1,            // 分组需要的空间大小
             // 后台数据
             data: [
                 { id: 0, name: "张三1", age: 17 },
                 { id: 1, name: "张三2", age: 18 },
                 { id: 2, name: "张三3", age: 19 },
                 { id: 3, name: "张三4", age: 20 },
-                { id: 4, name: "张三5", age: 21 },
-                { id: 5, name: "张三6", age: 17 },
-                { id: 6, name: "张三7", age: 18 },
-                { id: 7, name: "张三8", age: 19 },
-                { id: 8, name: "张三9", age: 20 },
-                { id: 9, name: "张三10", age: 21 }
+                
             ]
         }
     },
